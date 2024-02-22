@@ -1,0 +1,48 @@
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: blueviolet ;
+  color: lightblue;
+}
+.pagination {
+  margin-top: 20px;
+}
+.pagination button {
+  margin: 0;
+  background-color: blueviolet ;
+  padding: 5px;
+  border-radius: 100px;
+  margin:4px;
+ border: none;
+ width: 40px;
+ height:40px;
+
+  cursor: pointer;
+}
+.active {
+
+  color: lightsalmon;
+}
+#nextButton{
+border-radius: 0 10px 10px 0;
+width: 70px;
+}
+#prevButton{
+  border-radius: 10px 0 0 10px;
+  width: 70px;
+}
