@@ -14,7 +14,7 @@ fetch(
 )
   .then((response) => response.json())
   .then((data) => {
-    const itemsPerPage = 5; // Display 5 rows per page
+    const itemsPerPage = 10; // Display 5 rows per page
     let currentPage = 1;
     let currentData = [];
 
