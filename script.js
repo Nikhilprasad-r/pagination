@@ -6,7 +6,7 @@ H.textContent = "Pagination task with given JSON";
 header.appendChild(H);
 let P = document.createElement("p");
 P.id = "description";
-P.textContent = "Pagination task with given JSON";
+P.textContent = "Showing 10 elements in a page";
 header.appendChild(P);
 
 fetch(
